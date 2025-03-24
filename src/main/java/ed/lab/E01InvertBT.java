@@ -5,7 +5,7 @@ public class E01InvertBT {
         if (root == null){
             return null;
         }
-        TreeNode temp = root.left;
+        TreeNode<Integer> temp = root.left;
         root.left = root.right;
         root.right = temp;
 
